@@ -6,10 +6,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ##BDD
 This application enables the the user to input their favorite hacker quote and post it.
--Type in the quote.
--Add their name and date.
--Allows them to upvote or downvote a quote
--Allows users to delete a post.
+- Type in the quote.
+- Add their name and date.
+- Allows them to upvote or downvote a quote
+- Allows users to delete a post.
 
 ## Setup/Installation Requirements
 Open your terminal
@@ -20,11 +20,11 @@ open terminal
 run "ng serve -o" to open the application in your localhost
 
 ## Technologies Published
-HTML
-CSS
-Bootstrap
-Javascrpt
-Angular js
+- HTML
+- CSS
+- Bootstrap
+- Javascrpt
+- Angular js
 
 
 ## Build
