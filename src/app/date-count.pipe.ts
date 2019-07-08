@@ -11,7 +11,7 @@ export class DateCountPipe implements PipeTransform {
     var dateDifference =Math.abs(value-todayWithNoTime )// returns value in milliseconds
     const secondsInAMinute= 3600; //60 seconds*60 minutes in an hour
 
-    var dateDifferenceSeconds =dateDifference*0.001; //converts to seconds
+    var dateDifferenceSeconds = dateDifference*0.001; //converts to seconds
 
     var dateCounter = dateDifferenceSeconds/secondsInAMinute;
 
