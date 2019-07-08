@@ -4,7 +4,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
 
-##BDD
+## BDD
 This application enables the the user to input their favorite hacker quote and post it.
 - Type in the quote.
 - Add their name and date.
@@ -12,12 +12,12 @@ This application enables the the user to input their favorite hacker quote and p
 - Allows users to delete a post.
 
 ## Setup/Installation Requirements
-Open your terminal
-initialize githubgit clone https://github.com/Pixel-0/quotes.git
-cd quotes
-open folder in prefered IDE
-open terminal
-run "ng serve -o" to open the application in your localhost
+- Open your terminal
+- initialize githubgit clone https://github.com/Pixel-0/quotes.git
+- cd quotes
+- open folder in prefered IDE
+- open terminal
+- run "ng serve -o" to open the application in your localhost
 
 ## Technologies Published
 - HTML
