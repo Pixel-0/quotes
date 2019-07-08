@@ -1,0 +1,25 @@
+<div class="container">
+  <hr>
+  <h1 style = "font-family: 'Press Start 2P', cursive; color:#fff;" >HACKERMAN</h1>
+  <hr>
+  <p style = "font-family: 'Press Start 2P', cursive; color:#fff; font-size: 125%;" >Write down your favorite quote if y<span>ou're</span> a hacker!</p>
+
+  <div *ngFor='let quote of quotes;let i = index'>
+
+    <div class="all">
+
+      <div id="output">
+        <p id="{{i}}">{{quote.name}} <br><strong>posted on: {{quote.completeDate|date|uppercase}}</strong></p>
+
+        <div class="button">
+          <button class="btn btn-dark" (click)='toogleDetails(i)'>Details</button>
+        </div>
+
+        <div *ngIf="quote.showDescription">
+          <app-quote-details [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
+        </div>
+      </div>
+</div>
+  </div>
+  <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+</div>
