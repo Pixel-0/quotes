@@ -9,7 +9,7 @@ import { Quote } from '../quote'
 export class QuoteComponent implements OnInit {
   quotes = [
     new Quote(1,'It is simple; control the code, control the world!','Author: Pixel Aurora', 'Pixel',new Date(2019,6,4)),
-    new Quote(2,'Learn the rules like a pro, so you can break them like an artist','Author: Bob Cat', 'Pixel',new Date(2019,6,5)),
+    new Quote(2,'Learn the rules like a pro, so you can break them like an artist.','Author: Bob Cat', 'Pixel',new Date(2019,6,5)),
     new Quote(3,'I will set the world on fire and call it rain ','Author: Obi Wan', 'Pixel',new Date(2019,6,6)),
     new Quote(4,'Love, death and robots...who else is hooked?','Author: Sombra', 'Pixel',new Date(2019,6,7)),
     new Quote(5,'We are Anonymous. We are Legion. We do not forgive. We do not forget. Expect us.','Author: Anonymous', 'Pixel',new Date(2019,6,8)),
