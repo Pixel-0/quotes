@@ -20,12 +20,13 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
     QuoteFormComponent,
     TimeAgoPipe
   ],
-  
+
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule
   ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })
