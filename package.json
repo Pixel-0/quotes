@@ -48,5 +48,10 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.4.3"
+  },
+  "scripts": {
+     "deploy": "ng build --prod --base-href
+     https://Pixel-0.github.io/quotes/ && angular-cli-ghpages --branch
+     gh-pages"
   }
 }
