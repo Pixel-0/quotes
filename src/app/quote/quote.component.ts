@@ -35,15 +35,6 @@ export class QuoteComponent implements OnInit {
   }
 
 
-  // upvote = 0;
-  // downvote = 0;
-  //
-  // like():boolean {
-  //   this.upvote +=1;
-  // }
-  // dislike():boolean {
-  //   this.downvote  +=1;
-  // }
 
   toogleDetails(index) {
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
